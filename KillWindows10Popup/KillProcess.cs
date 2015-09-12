@@ -21,6 +21,8 @@ namespace KillWindows10Popup
                     procByName.Kill();
                 }
 
+                RefreshSysTray.RefreshTrayArea();
+
                 Thread.Sleep(10000);
             }
         }
