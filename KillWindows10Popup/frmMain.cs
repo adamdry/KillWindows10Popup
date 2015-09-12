@@ -17,6 +17,9 @@ namespace KillWindows10Popup
             InitializeComponent();
 
             this.ShowInTaskbar = false;
+
+            // update window title with version number
+            this.Text += " - Version: " + Application.ProductVersion;
         }
 
         private void btnEngage_Click(object sender, EventArgs e)
